@@ -29,7 +29,7 @@ class C_Article extends CI_Controller {
     public function new_article(){
         $title = $this->input->post('title');
         $content = $this->input->post('content');
-        $date = date('dmy');
+        $date = date("Y/m/d");
         $author = $this->input->post('author');
 
         //config photo
@@ -77,7 +77,7 @@ class C_Article extends CI_Controller {
     public function submit_edit(){
         $title = $this->input->post('title');
         $content = $this->input->post('content');
-        $date = date('dmy');
+        $date = date("Y/m/d");
         $author = $this->input->post('author');
 
         $path = './assets/post/';
