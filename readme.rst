@@ -16,3 +16,5 @@ Installation:
     ErrorDocument 404 /index.php
     </IfModule>
 
+5. Create New folder in root directory called "assets" and directory "post" inside assets
+
